@@ -61,6 +61,18 @@ body {
   transition: color 0.3s;
 }
 
+a.course,
+a.studio,
+a.pricing,
+a.instructors {
+  color: rgba(69, 69, 69, 0.7);
+  text-decoration: none;
+  margin-left: 50px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
 .button1 {
 
   font-size: 18px;
@@ -576,36 +588,27 @@ ul li {
 
 .mapLocation iframe {
   border-radius: 5px;
-  margin-left: 130px;
-  margin-top: 20px;
-}
-
-.mapLocation {
-  width: 100%;
-  max-width: 600px;
-  margin: 0 auto;
-  margin-left: 10px;
+  margin-left: 110px;
+  margin-top: 10px;
 }
 
 .copyrightContainer {
   display: flex;
-  justify-content: space-between; 
-  align-items: center; 
-  height: 50px; 
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
   background-color: rgba(0, 0, 0, 1);
-  padding: 0 20px; 
+  padding: 0 20px;
 }
 
 .social-icons a {
-  margin: 0 10px; 
-  color: rgba(255, 255, 255, 0.86);
-  font-size: 15px; 
-}
-
-
-.copyrightText h2{
+  margin: 0 10px;
   color: rgba(255, 255, 255, 0.86);
   font-size: 15px;
 }
 
 
+.copyrightText h2 {
+  color: rgba(255, 255, 255, 0.86);
+  font-size: 15px;
+}
